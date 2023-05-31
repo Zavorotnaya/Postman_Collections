@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "114fa9cf-6d18-43c5-a6a9-333077c9fe3f",
+		"name": "Diploma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23669248"
+	},
+	"item": [
+		{
+			"name": "https://52790437-d0ad-480e-b2aa-f46516b9312e.serverhub.praktikum-services.ru/api/v1/orders/track",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{diploma}}/api/v1/orders/track",
+					"host": [
+						"{{diploma}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"track"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://52790437-d0ad-480e-b2aa-f46516b9312e.serverhub.praktikum-services.ru/api/v1/courier/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{diploma}}/api/v1/courier/:id",
+					"host": [
+						"{{diploma}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"courier",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://52790437-d0ad-480e-b2aa-f46516b9312e.serverhub.praktikum-services.ru/api/v1/courier",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{diploma}}/api/v1/courier",
+					"host": [
+						"{{diploma}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"courier"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://268eebde-5dc8-4a57-a3c1-da63da827a28.serverhub.praktikum-services.ru/v1/orders/accept/665484?courierId=1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://268eebde-5dc8-4a57-a3c1-da63da827a28.serverhub.praktikum-services.ru/v1/orders/accept/665484?courierId=1",
+					"protocol": "https",
+					"host": [
+						"268eebde-5dc8-4a57-a3c1-da63da827a28",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"v1",
+						"orders",
+						"accept",
+						"665484"
+					],
+					"query": [
+						{
+							"key": "courierId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://268eebde-5dc8-4a57-a3c1-da63da827a28.serverhub.praktikum-services.ru/api/v1/orders/finish/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://268eebde-5dc8-4a57-a3c1-da63da827a28.serverhub.praktikum-services.ru/api/v1/orders/finish/:id",
+					"protocol": "https",
+					"host": [
+						"268eebde-5dc8-4a57-a3c1-da63da827a28",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"finish",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
